@@ -23,19 +23,19 @@ const apiKey = "94e4b8d2c4f206e1dd67e7c977b8a394";
     document.querySelector(".wind").innerHTML = data.wind.speed + " km/h";
 
     if(data.weather[0].main == "clouds"){
-      weatherIcon.src = "images/clouds.png";
+      weatherIcon.src = "./Images/clouds.png";
     }
     else if(data.weather[0].main == "Clear"){
-      weatherIcon.src = "images/clear.png";
+      weatherIcon.src = "./Images/clear.png";
     }
     else if(data.weather[0].main == "Rain"){
-      weatherIcon.src = "images/rain.png";
+      weatherIcon.src = "./Images/rain.png";
     }
     else if(data.weather[0].main == "Drizzle"){
-      weatherIcon.src = "images/drizzle.png";
+      weatherIcon.src = "./Images/drizzle.png";
     }
     else if(data.weather[0].main == "Mist"){
-      weatherIcon.src = "images/mist.png";
+      weatherIcon.src = "./Images/mist.png";
     }
     }
    
